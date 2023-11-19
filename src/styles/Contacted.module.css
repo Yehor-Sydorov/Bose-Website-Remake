@@ -1,0 +1,66 @@
+.MainContactContainer {
+  width: 100%;
+}
+
+.ContactContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.FormsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.FormsInput {
+  background-color: #f8f8fa;
+  border: none;
+  width: 408px;
+  height: 48px;
+  border-radius: 40px;
+}
+
+.FormsInput2 {
+  background-color: #f8f8fa;
+  border: none;
+  width: 408px;
+  height: 148px;
+  border-radius: 16px;
+  text-align: top;
+}
+
+.FormsButton {
+  width: 411px;
+  height: 56px;
+  padding: 0px, 48px, 0px, 48px;
+  border-radius: 40px;
+  background-color: #292929;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}
+
+.FormsButton:hover {
+  border: 3px solid black;
+  background-color: #fff;
+  color: black;
+  transition: 0.3s;
+}
+
+.FormsButton:active {
+  border: none;
+  background-color: black;
+  color: #fff;
+  transition: 0.15s;
+}
+
+.ContactText {
+  display: flex;
+  justify-content: center;
+}
+
+.HeadingStyle{
+  color: #a2acbc;
+}

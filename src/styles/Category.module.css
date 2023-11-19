@@ -1,0 +1,59 @@
+.BrowseComponentContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Header2 {
+  font-size: 48px;
+  font-family: "Inter";
+  font-weight: 700;
+}
+
+.BrowseText{
+  font-size: 48px;
+  font-family: "Inter";
+  font-weight: 700;
+  text-align: center;
+}
+
+.CategoryInnerContainer {
+  margin: 30px 0 0 0;
+}
+
+.Header3 {
+  font-size: 24px;
+  font-family: "Inter";
+  font-weight: 700;
+}
+
+.imageA {
+  margin-right: 20px;
+}
+
+.ButtonElement{
+    background-color: #292929;
+    color: white;
+    border: none;
+    width: 324px;
+    height: 56px;
+    border-radius: 40px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.ButtonElement:hover{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 3px solid black;
+  transition: 0.3s;
+}
+
+.ButtonElement:active{
+  background-color: #000000;
+  color: white;
+  border: none;
+  transition: 0.15s;
+}

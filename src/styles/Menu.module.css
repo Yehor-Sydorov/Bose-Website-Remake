@@ -1,0 +1,120 @@
+.MainContainer {
+  height: 700px;
+  background-size: cover;
+  margin: -8px;
+}
+
+.MenuIconsContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 52px 100px;
+}
+
+.PhoneAndBurgerContainer {
+  display: flex;
+  gap: 25px;
+}
+
+.MenuFancyText {
+  font-weight: 800;
+}
+
+.menuIconAndTextContainer {
+  position: absolute;
+  top: 452px;
+  left: 120px;
+}
+
+.phoneNumberContainer {
+  display: flex;
+  align-items: center;
+}
+
+.phoneNumber {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+  transform: translateY(0px);
+  transition: 0.3s;
+  opacity: 100;
+}
+
+.phoneNumberNotVisible {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.SideMenu {
+  position: absolute;
+  top: 121px;
+  right: 20px;
+  width: 17%;
+  height: 55%;
+  transform: translateY(100%);
+  z-index: -500;
+  transition: 6s;
+  opacity: 0;
+  margin: -10px;
+}
+
+.SideMenuVisible {
+  position: absolute;
+  top: 121px;
+  right: 20px;
+  width: 17%;
+  height: 55%;
+  transform: translateX(0);
+  z-index: 500;
+  transition: 0.7s;
+  opacity: 100;
+  margin: -10px;
+}
+
+.menuParagraph {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.menuParagraph:hover {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.menuParagraph2 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.menuParagraph3 {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.menuLink{
+  color: black;
+  text-decoration: none;
+}
