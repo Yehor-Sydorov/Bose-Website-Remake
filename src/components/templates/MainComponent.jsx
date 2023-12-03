@@ -31,7 +31,6 @@ function MainComponent() {
         <p className={style.menuParagraph3}>CALL TO ORDER</p>
       </div>
       <div
-        style={{ backgroundImage: `url(${menu})` }}
         className={style.MainContainer}
       >
         <div className={style.MenuIconsContainer}>

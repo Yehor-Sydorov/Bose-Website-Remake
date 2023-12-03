@@ -9,3 +9,9 @@ body{
     font-family: 'Hind Siliguri', sans-serif;
 font-family: 'Inter', sans-serif;
 }
+@media screen and (max-width: 376px) {
+    .headerItalic{
+        font-size: 32px;
+        line-height: 32px;
+    }
+}

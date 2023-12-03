@@ -64,3 +64,18 @@
 .HeadingStyle{
   color: #a2acbc;
 }
+@media screen and (max-width:376px) {
+  .ContactContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .FormsInput{
+    width: 100%;
+  }
+  .FormsInput2{
+    width: 100%;
+  }
+  .FormsButton{
+    width: 100%;
+  }
+}

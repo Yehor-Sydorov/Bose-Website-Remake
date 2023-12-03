@@ -28,8 +28,8 @@ function BrowseComponent() {
         header3content="Speakers"
       />
       <CategoryComponent
-        imageA={ImageE}
-        imageB={ImageF}
+        imageA={ImageF}
+        imageB={ImageE}
         header3content="Audio sunglasses"
       />
       <div className={style.ButtonContainer}>
